@@ -7,7 +7,9 @@ This analysis will cover the details of the neural network model created for thi
 
 ## Results
 Data Preprocessing
+
 The target variable in this model is the "IS_SUCCESSFUL" column.
+
 The feature variables in the final model were:
 NAME
 APPLICATION_TYPE
