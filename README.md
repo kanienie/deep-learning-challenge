@@ -20,13 +20,17 @@ ORGANIZATION
 INCOME_AMT
 ASK_AMT
 The variable that was removed from the final model were:
-STATUS - this column had over 34k 1's and only 5 0's - only five of the rows are zeroes which is not helpful for
-Compiling, Training, and Evaluating the Model
+STATUS - this column had over 34k 1's and only 5 0's - only five of the rows are zeroes which is not helpful.
+
+## Compiling, Training, and Evaluating the Model
 The final model had three layers. The first layer had 100 neurons or nodes, the second layer had 30 neurons, and the third layer had 10 neurons. The model used two different activation functions - rectified linear units (relu) and sigmoid. 
+![image](https://github.com/kanienie/deep-learning-challenge/assets/124482339/d54a2974-fbf9-44ea-8bc7-e5e1c6f67a8b)
 
 ## model definition and summary
 
 The model exceeded the target performance of 75%. The model reached 79% accuracy 
+![image](https://github.com/kanienie/deep-learning-challenge/assets/124482339/5d16e632-eeb0-4fd8-b2ef-c8acbbe26c28)
+
 
 I took the following steps to increase the model's performance:
 Including the NAME column. There were a significant number of organization names that were repeated in the data. I thought there could be a connection betwen the organization and its success.
